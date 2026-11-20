@@ -9,9 +9,9 @@ function bb_db_config(): array
 {
     return [
         'host'    => getenv('BB_DB_HOST') ?: 'localhost',
-        'name'    => getenv('BB_DB_NAME') ?: 'bloodbank_saas',
-        'user'    => getenv('BB_DB_USER') ?: 'root',
-        'pass'    => getenv('BB_DB_PASS') ?: '',
+        'name'    => getenv('BB_DB_NAME') ?: 'noubqybe_testsuperadmin',
+        'user'    => getenv('BB_DB_USER') ?: 'noubqybe_testsuperadmin',
+        'pass'    => getenv('BB_DB_PASS') ?: '123', // আপনার ডাটাবেজের আসল পাসওয়ার্ড এখানে দিন
         'charset' => 'utf8mb4',
     ];
 }
